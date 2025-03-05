@@ -2,6 +2,10 @@
     font-family: "Nexa-trial-heavy";
     src: url("./Nexa-Trial-Heavy.ttf");
 }
+@font-face {
+    font-family: "Brood-medium" ;
+    src: url("./Brood\ Medium\ Trial.otf");
+}
 
 *{
     margin: 0px;
@@ -42,7 +46,8 @@
     background: url("./assets/figma_assets/QR\ Image.svg");
 }
 .qrcontent{
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
+    margin-top: 16px;
     width: 288px;
     height: 131px;
     display: flex;
@@ -53,7 +58,7 @@
 .qrmaintext{
     font-family: 'Nexa-trial-heavy';
     color: rgb(31,49,79);
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     height: 52px;
     width: 256px;
     font-size: 21px;
@@ -67,7 +72,17 @@
     align-items: center;
 }
 .qrsubtext{
-    border: 1px solid  green;
+    /* border: 1px solid  green; */
     height: 63px;
     width: 256px;
+    margin-top: 16px;
+    font-family: "Brood-medium";
+    font-size: 15px;
+    font-weight: -300;
+    color: rgb(104, 119, 141);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 20px;
+
 }
