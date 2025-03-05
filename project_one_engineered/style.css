@@ -45,4 +45,29 @@
     border: 1px solid pink;
     width: 288px;
     height: 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qrmaintext{
+    font-family: 'Nexa-trial-heavy';
+    color: rgb(31,49,79);
+    border: 1px solid purple;
+    height: 52px;
+    width: 256px;
+    font-size: 21px;
+    word-spacing: -1px;
+    font-weight: bolder;
+    padding-left: 3px;
+    margin-top: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qrsubtext{
+    border: 1px solid  green;
+    height: 63px;
+    width: 256px;
 }
